@@ -216,48 +216,48 @@ function NormalPeep(scene){
         },_s(WAIT+1));
 
     };
-    self.takeOffHat = function(instant){
+    // self.takeOffHat = function(instant){
 
-        self.clearAnims(); // just in case...
+    //     self.clearAnims(); // just in case...
 
-        if(!instant){
+    //     if(!instant){
         
-            // 1) Stop & look
-            var tv = scene.tv;
-            self.stopWalking(true);
-            self.faceMC.gotoAndStop(1);
-            self.flip = (tv.x>self.x) ? 1 : -1;
-            var WAIT = 4*BEAT + Math.random()*0.4;
-            self.isWatching = true;
+    //         // 1) Stop & look
+    //         var tv = scene.tv;
+    //         self.stopWalking(true);
+    //         self.faceMC.gotoAndStop(1);
+    //         self.flip = (tv.x>self.x) ? 1 : -1;
+    //         var WAIT = 4*BEAT + Math.random()*0.4;
+    //         self.isWatching = true;
 
-            // 2) Take off HAT!
-            self.setTimeout(function(){
-                self.wearingHat = false;
-                self.bounce = 1.1;
+    //         // 2) Take off HAT!
+    //         self.setTimeout(function(){
+    //             self.wearingHat = false;
+    //             self.bounce = 1.1;
 
-                // Blink, then shame.
-                self.faceMC.gotoAndStop(2);
-                self.setTimeout(function(){
-                    self.faceMC.gotoAndStop(7);
-                },_s(0.2));
+    //             // Blink, then shame.
+    //             self.faceMC.gotoAndStop(2);
+    //             self.setTimeout(function(){
+    //                 self.faceMC.gotoAndStop(7);
+    //             },_s(0.2));
 
-            },_s( BEAT*1.75 + Math.random()*0.75 ));
+    //         },_s( BEAT*1.75 + Math.random()*0.75 ));
 
-            // 3) And go on.
-            self.setTimeout(function(){
-                self.isWatching = false;
-                self.bounce = 1.2;
-                self.startWalking();
-                self.faceMC.gotoAndStop(0);
-            },_s(WAIT+0.06));
+    //         // 3) And go on.
+    //         self.setTimeout(function(){
+    //             self.isWatching = false;
+    //             self.bounce = 1.2;
+    //             self.startWalking();
+    //             self.faceMC.gotoAndStop(0);
+    //         },_s(WAIT+0.06));
 
-        }else{
-            self.faceMC.gotoAndStop(0);
-            self.hatMC.gotoAndStop(0);
-            self.wearingHat = false;
-        }
+    //     }else{
+    //         self.faceMC.gotoAndStop(0);
+    //         self.hatMC.gotoAndStop(0);
+    //         self.wearingHat = false;
+    //     }
 
-    };
+    // };
 
     ///////////////////////////////////////////
     // THINGS THE DIRECTOR CAN TELL ME TO DO //
