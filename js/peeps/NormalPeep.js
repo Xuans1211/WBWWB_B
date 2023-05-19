@@ -230,18 +230,18 @@ function NormalPeep(scene){
             var WAIT = 4*BEAT + Math.random()*0.4;
             self.isWatching = true;
 
-            // 2) Take off HAT!
-            self.setTimeout(function(){
-                self.wearingHat = false;
-                self.bounce = 1.1;
+            // // 2) Take off HAT!
+            // self.setTimeout(function(){
+            //     self.wearingHat = false;
+            //     self.bounce = 1.1;
 
-                // Blink, then shame.
-                self.faceMC.gotoAndStop(2);
-                self.setTimeout(function(){
-                    self.faceMC.gotoAndStop(7);
-                },_s(0.2));
+            //     // Blink, then shame.
+            //     self.faceMC.gotoAndStop(2);
+            //     self.setTimeout(function(){
+            //         self.faceMC.gotoAndStop(7);
+            //     },_s(0.2));
 
-            },_s( BEAT*1.75 + Math.random()*0.75 ));
+            // },_s( BEAT*1.75 + Math.random()*0.75 ));
 
             // 3) And go on.
             self.setTimeout(function(){
@@ -254,7 +254,7 @@ function NormalPeep(scene){
         }else{
             self.faceMC.gotoAndStop(0);
             self.hatMC.gotoAndStop(0);
-            self.wearingHat = false;
+            // self.wearingHat = false;
         }
 
     };
