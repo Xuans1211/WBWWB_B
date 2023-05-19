@@ -222,34 +222,27 @@ function NormalPeep(scene){
 
         if(!instant){
         
-            // 1) Stop & look
-            // var tv = scene.tv;
-            // self.stopWalking(true);
-            // self.faceMC.gotoAndStop(1);
-            // self.flip = (tv.x>self.x) ? 1 : -1;
-            // var WAIT = 4*BEAT + Math.random()*0.4;
-            // self.isWatching = true;
-
-            // // 2) Take off HAT!
-            // self.setTimeout(function(){
-            //     self.wearingHat = false;
-            //     self.bounce = 1.1;
-
-            //     // Blink, then shame.
-            //     self.faceMC.gotoAndStop(2);
-            //     self.setTimeout(function(){
-            //         self.faceMC.gotoAndStop(7);
-            //     },_s(0.2));
-
-            // },_s( BEAT*1.75 + Math.random()*0.75 ));
-
+            //1) Stop & look
             var tv = scene.tv;
             self.stopWalking(true);
             self.faceMC.gotoAndStop(1);
             self.flip = (tv.x>self.x) ? 1 : -1;
-            var WAIT = Director.ZOOM_OUT_1_TIME + Director.SEE_VIEWERS_TIME;
-            WAIT += Math.random()*0.4; // random offset
+            var WAIT = 4*BEAT + Math.random()*0.4;
             self.isWatching = true;
+
+            // 2) Take off HAT!
+            self.setTimeout(function(){
+                self.wearingHat = false;
+                self.bounce = 1.1;
+
+                // Blink, then shame.
+                self.faceMC.gotoAndStop(2);
+                self.setTimeout(function(){
+                    self.faceMC.gotoAndStop(7);
+                },_s(0.2));
+
+            },_s( BEAT*1.75 + Math.random()*0.75 ));
+
     
             // 2) Wear HAT! IN SYNCHRONIZED TIME
             var HAT_TIME = Director.ZOOM_OUT_1_TIME + (Math.abs(self.x-tv.x)-60)/100;
