@@ -103,7 +103,6 @@ function Scene_Preloader(){
 		bar.mousedown = bar.touchend = function(){
 			Game.sounds.squeak.play();
 			setTimeout(function(){
-				// Game.sceneManager.gotoScene("Quote"); //跳到Game，省略Qoute
 				Game.sceneManager.gotoScene("Game");
 			},200);
 		};

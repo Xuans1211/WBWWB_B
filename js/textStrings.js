@@ -242,7 +242,7 @@ var textStrings_ZH_TW = {
 
     // Act 3
     "ellipsis"             : ". . ."                                                 ,
-    "coolNoMore"           : "帽子挺不錯的,是吧？"           ,
+    "coolNoMore"           : "這些帽子已經不酷了, 你沒聽說嗎？"           ,
     "beScared"             : "恐懼吧. 憤怒吧."                                  ,
 
     // MANIFESTO
