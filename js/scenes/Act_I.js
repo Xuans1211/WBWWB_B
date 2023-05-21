@@ -133,18 +133,13 @@ function _chyHats(d){
         hat: {_CLASS_:"NormalPeep", wearingHat:true }
     });
     //帽子被拍後被關掉
-    // if(caught.hat){
-    //     p.audience = 1;
-    //     p.caughtHat = true;
-    //     d.chyron = textStrings["notCoolAnymore"];
-    //     return true;
-    // }
     if(caught.hat){
-        p.audience = 3;
+        p.audience = 1;
         p.caughtHat = true;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
     }
+ 
     return false;
 }
 function _chyPeeps(d){
