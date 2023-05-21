@@ -130,7 +130,9 @@ function _chyLovers(d){
 function _chyHats(d){
     var p = d.photoData;
     var caught = d.caught({
-        hat: {_CLASS_:"NormalPeep", wearingHat:true}
+        hat: {_CLASS_:"NormalPeep"
+        // , wearingHat:true
+    }
     });
     //帽子被拍後被關掉
     // if(caught.hat){
@@ -145,9 +147,6 @@ function _chyHats(d){
         d.chyron = textStrings["notCoolAnymore"];
         return true;
     }
-
-
-
     return false;
 }
 function _chyPeeps(d){
