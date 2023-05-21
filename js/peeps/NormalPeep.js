@@ -222,7 +222,7 @@ function NormalPeep(scene){
 
         if(!instant){
         
-            //1) Stop & look
+            // 1) Stop & look
             var tv = scene.tv;
             self.stopWalking(true);
             self.faceMC.gotoAndStop(1);

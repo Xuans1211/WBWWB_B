@@ -53,8 +53,8 @@ function Stage_Hat(self){
                 d.audience_cutToTV(function(peep){
                     peep.wearHat();
                 }); // make all viewers wear HATS!
-                // p.caughtHat.kill(); // Get rid of hat
-                // Stage_Lovers(self); // Next stage
+                //p.caughtHat.kill(); // Get rid of hat
+                //Stage_Lovers(self); // Next stage
             }else{
                 d.audience_cutToTV();
             }
@@ -130,16 +130,14 @@ function _chyLovers(d){
 function _chyHats(d){
     var p = d.photoData;
     var caught = d.caught({
-        hat: {_CLASS_:"NormalPeep", wearingHat:true }
+        hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
-    //帽子被拍後被關掉
     if(caught.hat){
         p.audience = 1;
         p.caughtHat = true;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
     }
- 
     return false;
 }
 function _chyPeeps(d){
