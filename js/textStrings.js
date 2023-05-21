@@ -260,7 +260,7 @@ var textStrings_ZH_TW = {
 
     // (bg_preload.png) Preload screen
     "playingTime"        : "遊戲時間約 5 分鐘" ,
-    "warning"            : "警告: 這個遊戲包含了\n勢利、粗魯、暴力血腥的場景,\n請遊戲者慎重斟酌體驗" ,
+    "warning"            : "遊戲全程僅需用【滑鼠】即可" ,
 
     // (cam-instructions.png) Camera Instructions
     "pointAndClick"      : "對準 & 點擊" ,
