@@ -134,7 +134,7 @@ function _chyHats(d){
         hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
     if(caught.hat){
-        p.audience = self+1;
+        p.audience = hatPeeps.length+1;
         p.caughtHat = FALSE;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
