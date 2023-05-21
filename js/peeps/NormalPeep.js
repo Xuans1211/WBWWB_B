@@ -243,13 +243,6 @@ function NormalPeep(scene){
 
             },_s( BEAT*1.75 + Math.random()*0.75 ));
 
-    
-            // 2) Wear HAT! IN SYNCHRONIZED TIME
-            var HAT_TIME = Director.ZOOM_OUT_1_TIME + (Math.abs(self.x-tv.x)-60)/100;
-            self.setTimeout(function(){
-                self.wearingHat = true;
-            },_s(HAT_TIME));
-
             // 3) And go on.
             self.setTimeout(function(){
                 self.isWatching = false;
@@ -261,7 +254,7 @@ function NormalPeep(scene){
         }else{
             self.faceMC.gotoAndStop(0);
             self.hatMC.gotoAndStop(0);
-            // self.wearingHat = false;
+            self.wearingHat = false;
         }
 
     };
