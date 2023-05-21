@@ -53,7 +53,7 @@ function Stage_Hat(self){
                 d.audience_cutToTV(function(peep){
                     peep.wearHat();
                 }); // make all viewers wear HATS!
-                // p.caughtHat.kill(); // Get rid of hat
+                p.caughtHat.kill(); // Get rid of hat
                 Stage_Lovers(self); // Next stage
             }else{
                 d.audience_cutToTV();
@@ -133,6 +133,9 @@ function _chyHats(d){
     var caught = d.caught({
         hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
+    var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
+                return peep.wearingHat;
+            });
     if(caught.hat){
         p.audience = hatPeeps.length+1;
         p.caughtHat = FALSE;
