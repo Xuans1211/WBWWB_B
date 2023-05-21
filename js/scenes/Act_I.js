@@ -64,45 +64,46 @@ function Stage_Hat(self){
 
 }
 
-function Stage_Lovers(self){
+// function Stage_Lovers(self){
 
-    // LOVERS
-    var lover1 = new LoverPeep(self);
-    lover1.setType("circle");
-    var lover2 = new LoverPeep(self);
-    lover2.setType("square");
-    lover2.follow(lover1);
-    self.world.addPeep(lover1);
-    self.world.addPeep(lover2);
+//     // LOVERS
+//     var lover1 = new LoverPeep(self);
+//     lover1.setType("circle");
+//     var lover2 = new LoverPeep(self);
+//     lover2.setType("square");
+//     lover2.follow(lover1);
+//     self.world.addPeep(lover1);
+//     self.world.addPeep(lover2);
 
-    // Director
-    self.director.callbacks = {
-        takePhoto: function(d){
+//     // Director
+//     self.director.callbacks = {
+//         takePhoto: function(d){
 
-            // MODULAR & DECLARATIVE
-            d.tryChyron(_chyLovers)
-             .otherwise(_chyHats)
-             .otherwise(_chyPeeps);
+//             // MODULAR & DECLARATIVE
+//             d.tryChyron(_chyLovers)
+//              .otherwise(_chyHats)
+//              .otherwise(_chyPeeps);
 
-        },
-        movePhoto: function(d){
-            d.audience_movePhoto();
-        },
-        cutToTV: function(d){
+//         },
+//         movePhoto: function(d){
+//             d.audience_movePhoto();
+//         },
+//         cutToTV: function(d){
 
-            // MODULAR & DECLARATIVE
-            d.tryCut2TV(_cutLovers)
-             .otherwise(_cutHats)
-             .otherwise(_cutPeeps);
+//             // MODULAR & DECLARATIVE
+//             d
+//             .tryCut2TV(_cutLovers)
+//              .otherwise(_cutHats)
+//              .otherwise(_cutPeeps);
 
-            // And whatever happens, just go to the next stage
-            // ACT II!!!
-            Stage_Screamer(self);
+//             // And whatever happens, just go to the next stage
+//             // ACT II!!!
+//             Stage_Screamer(self);
 
-        }
-    };
+//         }
+//     };
 
-}
+// }
 
 ///////////////////////////////////////
 ///////////////////////////////////////
@@ -110,23 +111,23 @@ function Stage_Lovers(self){
 ///////////////////////////////////////
 ///////////////////////////////////////
 
-function _chyLovers(d){
-    var p = d.photoData;
-    var caught = d.caught({
-        lover: {_CLASS_:"LoverPeep"}
-    });
-    if(caught.lover){
-        if(caught.lover.isEmbarrassed){
-            d.chyron = textStrings["outtaHere"];
-        }else{
-            p.caughtLovers = true;
-            p.forceChyron = true;
-            d.chyron = textStrings["getARoom"];
-        }
-        return true;
-    }
-    return false;
-}
+// function _chyLovers(d){
+//     var p = d.photoData;
+//     var caught = d.caught({
+//         lover: {_CLASS_:"LoverPeep"}
+//     });
+//     if(caught.lover){
+//         if(caught.lover.isEmbarrassed){
+//             d.chyron = textStrings["outtaHere"];
+//         }else{
+//             p.caughtLovers = true;
+//             p.forceChyron = true;
+//             d.chyron = textStrings["getARoom"];
+//         }
+//         return true;
+//     }
+//     return false;
+// }
 function _chyHats(d){
     var p = d.photoData;
     var caught = d.caught({
@@ -176,22 +177,22 @@ function _chyPeeps(d){
 ///////////////////////////////////////
 ///////////////////////////////////////
 
-function _cutLovers(d){
-    var p = d.photoData;
-    if(p.caughtLovers){
-        // Crickets
-        d.audience_cutToTV();
-        // MAKE LOVERS EMBARRASSED
-        d.scene.world.peeps.filter(function(peep){
-            return peep._CLASS_=="LoverPeep";
-        }).forEach(function(lover){
-            lover.makeEmbarrassed();
-        });
-        return true;
-    }else{
-        return false;
-    }
-}
+// function _cutLovers(d){
+//     var p = d.photoData;
+//     if(p.caughtLovers){
+//         // Crickets
+//         d.audience_cutToTV();
+//         // MAKE LOVERS EMBARRASSED
+//         d.scene.world.peeps.filter(function(peep){
+//             return peep._CLASS_=="LoverPeep";
+//         }).forEach(function(lover){
+//             lover.makeEmbarrassed();
+//         });
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
 function _cutHats(d){
     var p = d.photoData;
     if(p.caughtHat){
