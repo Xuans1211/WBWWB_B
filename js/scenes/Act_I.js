@@ -33,7 +33,7 @@ function Stage_Hat(self){
                 });
                 if(caught.hat){
                     p.audience = 3;
-                    // p.caughtHat = caught.hat;
+                    p.caughtHat = caught.hat;
                     d.chyron = textStrings["niceHat"];
                     return true;
                 }
