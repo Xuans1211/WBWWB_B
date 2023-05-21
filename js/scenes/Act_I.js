@@ -53,7 +53,7 @@ function Stage_Hat(self){
                 d.audience_cutToTV(function(peep){
                     peep.wearHat();
                 }); // make all viewers wear HATS!
-                //p.caughtHat.kill(); // Get rid of hat
+                p.caughtHat.kill(); // Get rid of hat
                 //Stage_Lovers(self); // Next stage
             }else{
                 d.audience_cutToTV();
