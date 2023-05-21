@@ -133,10 +133,10 @@ function _chyHats(d){
     var caught = d.caught({
         hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
-    var audience = 0;
     if(caught.hat){
+        p.audience = audience;
         p.audience = p.audience+1;
-        p.caughtHat = true;
+        p.caughtHat = FALSE;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
     }
