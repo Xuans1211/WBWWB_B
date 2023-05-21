@@ -33,7 +33,7 @@ function Stage_Hat(self){
                 });
                 if(caught.hat){
                     p.audience = 3;
-                    p.caughtHat = caught.hat;
+                    // p.caughtHat = caught.hat;
                     d.chyron = textStrings["niceHat"];
                     return true;
                 }
@@ -130,9 +130,7 @@ function _chyLovers(d){
 function _chyHats(d){
     var p = d.photoData;
     var caught = d.caught({
-        hat: {_CLASS_:"NormalPeep"
-        // , wearingHat:true
-    }
+        hat: {_CLASS_:"NormalPeep", wearingHat:true }
     });
     //帽子被拍後被關掉
     // if(caught.hat){

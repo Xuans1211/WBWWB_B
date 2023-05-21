@@ -205,7 +205,7 @@ function NormalPeep(scene){
         // 2) Wear HAT! IN SYNCHRONIZED TIME
         var HAT_TIME = Director.ZOOM_OUT_1_TIME + (Math.abs(self.x-tv.x)-60)/100;
         self.setTimeout(function(){
-            // self.wearingHat = true;
+            self.wearingHat = true;
         },_s(HAT_TIME));
 
         // 3) And go on.
