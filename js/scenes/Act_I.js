@@ -197,7 +197,8 @@ function _cutHats(d){
     if(p.caughtHat){
         // Only get the hat-wearers, make 'em take off the hat.
         d.audience_cutToTV(
-            function(peep){ peep.takeOffHat(); },
+            // function(peep){ peep.takeOffHat(); },
+            function(peep){ peep.wearHat(); },
             function(peep){ return peep.wearingHat; }
         );
         return true;
