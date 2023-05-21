@@ -133,9 +133,9 @@ function _chyHats(d){
     var caught = d.caught({
         hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
-    var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
-                return peep.wearingHat;
-            });
+    // var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
+    //             return peep.wearingHat;
+    //         });
     if(caught.hat){
         p.audience = hatPeeps.length+1;
         p.caughtHat = TRUE;
