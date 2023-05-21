@@ -133,7 +133,7 @@ function _chyHats(d){
         hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
     if(caught.hat){
-        p.audience = 1;
+        p.audience = 3;
         p.caughtHat = true;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
@@ -198,20 +198,24 @@ function _cutHats(d){
         // Only get the hat-wearers, make 'em take off the hat.
         d.audience_cutToTV(
             // function(peep){ peep.takeOffHat(); },
-            function(peep){ peep.wearHat(); },
             // function(peep){ return peep.wearingHat; }
+            function(peep){ peep.wearHat(); },
         );
         return true;
     }else{
         // And if not, have them decrease by 1 each time anyway.
-        var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
-            return peep.wearingHat;
-        });
-        if(hatPeeps.length>0){
-            var randomIndex = Math.floor(Math.random()*hatPeeps.length);
-            hatPeeps[randomIndex].takeOffHat(true);
-        }
-        return false;
+        // var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
+        //     return peep.wearingHat;
+        // });
+        // if(hatPeeps.length>0){
+        //     var randomIndex = Math.floor(Math.random()*hatPeeps.length);
+        //     hatPeeps[randomIndex].takeOffHat(true);
+        // }
+        // return false;
+        d.audience_cutToTV(
+            function(peep){ peep.wearHat(); },
+        );
+        return true;
     }
 }
 function _cutPeeps(d){
