@@ -199,7 +199,7 @@ function _cutHats(d){
         d.audience_cutToTV(
             // function(peep){ peep.takeOffHat(); },
             function(peep){ peep.wearHat(); },
-            function(peep){ return peep.wearingHat; }
+            // function(peep){ return peep.wearingHat; }
         );
         return true;
     }else{
