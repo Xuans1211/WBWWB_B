@@ -35,7 +35,7 @@ function Stage_Hat(self){
                     p.audience = 3;
                     p.caughtHat = caught.hat;
                     d.chyron = textStrings["niceHat"];
-                    return true;
+                    // return true;
                 }
                 return false;
             }).otherwise(_chyPeeps);
