@@ -138,7 +138,7 @@ function _chyHats(d){
             });
     if(caught.hat){
         p.audience = hatPeeps.length+1;
-        p.caughtHat = FALSE;
+        p.caughtHat = TRUE;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
     }
