@@ -57,7 +57,7 @@ var textStrings_EN = {
     "warning"            : "warning: the following program\ncontains scenes of snobbery,\nrudeness & mass murder.\nviewer discretion is advised." ,
 
     // (cam-instructions.png) Camera Instructions
-    "pointAndClick"      : "點擊 & 拍攝" ,
+    "pointAndClick"      : "POINT & CLICK" ,
 
     // (chyron3.png)
     "chyronNothing"      : "WOWWEE, IT'S *NOTHING*" ,
@@ -161,7 +161,7 @@ var textStrings_DE = {
     "warning"            : "Warnung: die folgende Sendung\nenth\xE4lt Darstellungen von Arroganz,\nBeleidigungen & Gewalt.\nund ist nicht f\xFCr Kinder geeignet." ,
 
     // (cam-instructions.png) Camera Instructions
-    "pointAndClick"      : "點擊 & 拍攝" , // I'd leave that in English, even for the German translation. /stefan
+    "pointAndClick"      : "POINT & CLICK" , // I'd leave that in English, even for the German translation. /stefan
 
     // (chyron3.png)
     "chyronNothing"      : "Oh wow, *NICHTS*!" ,
