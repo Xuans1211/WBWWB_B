@@ -210,50 +210,50 @@ var textStrings_DE = {
 
 var textStrings_ZH_TW = {
     // Act 1
-    "niceHat"              : "嗯哼 很棒的帽子"                                          ,
-    "outtaHere"            : "沒錯，掌握住那裡的失控"                                ,
-    "getARoom"             : "噁，何不在房間裡恩愛？"                                  ,
-    "notCoolAnymore"       : "帽子炫風席捲中"                          ,
-    "tvOnTv"               : "一台上了電視的...電視！"                                    ,
-    "cricky"               : "小蟋蟀 <3"                                        ,
-    "tooManyCrickets"      : "夠了，這就太多蟋蟀了"                         ,
-    "normalPeep"           : "只是個普通的民眾"                                    ,
-    "normalPeeps"          : "只是一群普通的民眾"                                ,
-    "wowNothing"           : "哇嗚, 你的鏡頭下什麼東西都沒有"                             ,
+    "niceHat"              : "嗯哼 很棒的帽子(+5)"                                          ,
+    "outtaHere"            : "沒錯，掌握住那裡的失控(+5)"                                ,
+    "getARoom"             : "噁，何不在房間裡恩愛？(+5)"                                  ,
+    "notCoolAnymore"       : "帽子風潮已退(+5)"                          ,
+    "tvOnTv"               : "一台上了電視的...電視！(+1)"                                    ,
+    "cricky"               : "小蟋蟀 <3(+1)"                                        ,
+    "tooManyCrickets"      : "夠了，這就太多蟋蟀了(+1)"                         ,
+    "normalPeep"           : "只是個普通的民眾(+1)"                                    ,
+    "normalPeeps"          : "只是一群普通的民眾(+1)"                                ,
+    "wowNothing"           : "你的鏡頭下什麼東西都沒有(+1)"                             ,
 
     // Act 2
-    "crazySquareAttacks"   : "有瘋狂的 方形 四處攻擊"                                 ,
-    "justMissed"           : "喔, 有什麼被錯過了..."                                 ,
-    "somethingInteresting" : "(對！去拍下他們做了 *什麼* 有趣的事...)" ,
-    "whoIsScreaming"       : "(對！去拍下 *誰* 對他們大吼大叫)"               ,
-    "circleFearsSquares"   : "圓形們 害怕 方形"                                  ,
-    "whoScaresThem"        : "(對！去拍下他們 *誰* 使他們恐懼)"         ,
-    "areTheyScared"        : "(對！去拍下他們被 方形 *恐嚇* 時的樣子)"       , // not used
-    "squaresSnubCircles"   : "方形們 不屑 圓形"                                  ,
-    "areTheySnubbed"       : "(對！去拍下他們不屑 圓形的 *瞬間* )"        , // not used
-    "everyoneHates"        : "多數人皆討厭著其他人！！！"                           ,
-    "almostEveryoneHates"  : "幾乎所有人討厭著所有人..."                     ,
-    "squaresHateCircles"   : "方形們 討厭 圓形"                                  ,
-    "circlesHateSquares"   : "圓形們 討厭 方形"                                  ,
-    "areTheyYelling"       : "(對！去拍下他們朝別人 *嘶吼* 的樣子)"              , // not used
-    "nerdsNow"             : "現在，這些書呆子們在幹麻？"                        ,
-    "schockedPeep"         : "是什麼使這位民眾感到驚嚇?"                              ,
-    "whatever"             : "無所謂"                                              ,
+    "crazySquareAttacks"   : "有瘋狂的 方形 四處攻擊(+5)"                                 ,
+    "justMissed"           : "喔, 有什麼被錯過了...(+1)"                                 ,
+    "somethingInteresting" : "(去拍下他們做了 *什麼* 有趣的事...)(+1)" ,
+    "whoIsScreaming"       : "(去拍下 *誰* 對他們大吼大叫)(+1)"               ,
+    "circleFearsSquares"   : "圓人們 害怕 方人(+5)"                                  ,
+    "whoScaresThem"        : "(去拍下他們 *誰* 使他們恐懼)(+1)"         ,
+    "areTheyScared"        : "(去拍下他們被 方人 *恐嚇* 時的樣子)(+1)"       , // not used
+    "squaresSnubCircles"   : "方人們 不屑 圓人(+5)"                                  ,
+    "areTheySnubbed"       : "(去拍下他們不屑 圓人的 *瞬間* )(+1)"        , // not used
+    "everyoneHates"        : "多數人皆討厭著其他人！！！(+5)"                           ,
+    "almostEveryoneHates"  : "幾乎所有人討厭著所有人...(+5)"                     ,
+    "squaresHateCircles"   : "方人們 討厭 圓人(+5)"                                  ,
+    "circlesHateSquares"   : "圓人們 討厭 方人(+5)"                                  ,
+    "areTheyYelling"       : "(去拍下他們朝別人 *嘶吼* 的樣子)(+1)"              , // not used
+    "nerdsNow"             : "現在，這些書呆子們在幹麻？(+1)"                        ,
+    "schockedPeep"         : "是什麼使這位民眾感到驚嚇?(+1)"                              ,
+    "whatever"             : "無所謂(+1)"                                              ,
 
     // Act 3
-    "ellipsis"             : ". . ."                                                 ,
-    "coolNoMore"           : "這些帽子已經不酷了, 你沒聽說嗎？"           ,
-    "beScared"             : "恐懼吧. 憤怒吧."                                  ,
+    "ellipsis"             : ". . .(+1)"                                                 ,
+    "coolNoMore"           : "帽子早就不酷了, 你沒聽說嗎？(+5)"           ,
+    "beScared"             : "恐懼吧. 憤怒吧.(+5)"                                  ,
 
     // MANIFESTO
     "manifesto" : [
        //"as if you viewers want GOOD news"       ,
-       "誰會想看 *這些人的互動* ?",
-       "和平只帶來無趣. 暴力則有助散播."    ,
+       "誰會想看 *這些人的互動* ?(+1)",
+       "和平只帶來無趣. 暴力則有助散播.(+1)"    ,
        //"peace is boring. conflict gets clicks." ,
-       "每個故事都需要一點衝突, 所以..."  ,
+       "每個故事都需要一點衝突, 所以...(+1)"  ,
        //"...GIVE THE AUDIENCE WHAT THEY WANT."   ,
-       "給我拿出觀眾們想看的！"
+       "拿出更多觀眾們想看的！(+1)"
     ] ,
 
     // -- Strings currently in graphics resources --
@@ -266,7 +266,7 @@ var textStrings_ZH_TW = {
     "pointAndClick"      : "對準 & 點擊" ,
 
     // (chyron3.png)
-    "chyronNothing"      : "哇嗚, 你的鏡頭下 *什麼東西都沒有*" ,
+    "chyronNothing"      : "你的鏡頭下 *什麼東西都沒有*"(+1) ,
 
     // (credits0001.png)
     "createdBy"          : "製作來自" ,
