@@ -135,10 +135,10 @@ function _chyHats(d){
         hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
     if(caught.hat){
-        var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
-            return peep.wearingHat;
-        });
-        p.audience = hatPeeps.length+1;
+        // var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
+        //     return peep.wearingHat;
+        // });
+        p.audience = caught.peeps.length+1;
         p.caughtHat = TRUE;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
@@ -201,25 +201,25 @@ function _cutHats(d){
     var p = d.photoData;
     if(p.caughtHat){
         // Only get the hat-wearers, make 'em take off the hat.
-        d.audience_cutToTV(
-            function(peep){ peep.takeOffHat(); },
-            function(peep){ return peep.wearingHat; }
-        );
-        return true;
-    }else{
-        // And if not, have them decrease by 1 each time anyway.
-        var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
-            return peep.wearingHat;
-        });
-        if(hatPeeps.length>0){
-            var randomIndex = Math.floor(Math.random()*hatPeeps.length);
-            hatPeeps[randomIndex].takeOffHat(true);
-        }
-        return false;
-    // d.audience_cutToTV(
-    //     function(peep){ peep.wearHat(); },
-    // );
-    // return true;
+    //     d.audience_cutToTV(
+    //         function(peep){ peep.takeOffHat(); },
+    //         function(peep){ return peep.wearingHat; }
+    //     );
+    //     return true;
+    // }else{
+    //     // And if not, have them decrease by 1 each time anyway.
+    //     var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
+    //         return peep.wearingHat;
+    //     });
+    //     if(hatPeeps.length>0){
+    //         var randomIndex = Math.floor(Math.random()*hatPeeps.length);
+    //         hatPeeps[randomIndex].takeOffHat(true);
+    //     }
+    //     return false;
+    d.audience_cutToTV(
+        function(peep){ peep.wearHat(); },
+    );
+    return true;
         
     }
 }
