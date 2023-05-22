@@ -91,8 +91,7 @@ function Stage_Lovers(self){
         cutToTV: function(d){
 
             // MODULAR & DECLARATIVE
-            d
-            .tryCut2TV(_cutLovers)
+            d.tryCut2TV(_cutLovers)
              .otherwise(_cutHats)
              .otherwise(_cutPeeps);
 
@@ -128,22 +127,19 @@ function _chyLovers(d){
     }
     return false;
 }
-
 function _chyHats(d){
     var p = d.photoData;
     var caught = d.caught({
         hat: {_CLASS_:"NormalPeep", wearingHat:true}
     });
+    
     if(caught.hat){
-        // var hatPeeps = d.scene.world.peeps.slice(0).filter(function(peep){
-        //     return peep.wearingHat;
-        // });
-        p.audience = 3;
-        // caught.peeps.length+1;
-        p.caughtHat = TRUE;
+        p.audience = 1;
+        p.caughtHat = true;
         d.chyron = textStrings["notCoolAnymore"];
         return true;
     }
+    
     return false;
 }
 function _chyPeeps(d){
@@ -217,11 +213,6 @@ function _cutHats(d){
             hatPeeps[randomIndex].takeOffHat(true);
         }
         return false;
-    // d.audience_cutToTV(
-    //     function(peep){ peep.wearHat(); },
-    // );
-    // return true;
-        
     }
 }
 function _cutPeeps(d){
