@@ -211,19 +211,19 @@ var textStrings_DE = {
 var textStrings_ZH_TW = {
     // Act 1
     "niceHat"              : "你拍到了帽子，獲得分數+5"                                          ,
-    "outtaHere"            : "你沒拍到什麼，獲得分數+0"                                ,
+    "outtaHere"            : "你沒拍到什麼，獲得分數+1"                                ,
     "getARoom"             : "你拍到了情侶，獲得分數+5"                                  ,
     "notCoolAnymore"       : "你再次拍到了帽子，獲得分數+5"                          ,
     "tvOnTv"               : "你拍到了電視，獲得分數+1"                                    ,
     "cricky"               : "你拍到了蟋蟀，獲得分數+1"                                        ,
-    "tooManyCrickets"      : "你拍到了系率，獲得分數+1"                         ,
+    "tooManyCrickets"      : "你拍到了蟋蟀，獲得分數+1"                         ,
     "normalPeep"           : "你拍到了普通人，獲得分數+1"                                    ,
     "normalPeeps"          : "你拍到了普通人，獲得分數+1"                                ,
-    "wowNothing"           : "你沒拍到什麼，獲得分數+0"                             ,
+    "wowNothing"           : "你沒拍到什麼，獲得分數+1"                             ,
 
     // Act 2
     "crazySquareAttacks"   : "你拍到了瘋狂方人，獲得分數+5"                                 ,
-    "justMissed"           : "你沒拍到什麼，獲得分數+0"                                 ,
+    "justMissed"           : "你沒拍到什麼，獲得分數+1"                                 ,
     "somethingInteresting" : "你就快拍到了什麼，獲得分數+1" ,
     "whoIsScreaming"       : "你就快拍到了什麼，獲得分數+1"               ,
     "circleFearsSquares"   : "你拍到了圓人的害怕，獲得分數+5"                                  ,
@@ -238,7 +238,7 @@ var textStrings_ZH_TW = {
     "areTheyYelling"       : "你就快拍到了什麼，獲得分數+1"              , // not used
     "nerdsNow"             : "你拍到了怪咖，獲得分數+1"                        ,
     "schockedPeep"         : "你拍到的震驚的人，獲得分數+1"                              ,
-    "whatever"             : "你沒拍到什麼，獲得分數+0"                                              ,
+    "whatever"             : "你沒拍到什麼，獲得分數+1"                                              ,
 
     // Act 3
     "ellipsis"             : "你又拍到了...，獲得分數+5"                                                 ,
