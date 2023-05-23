@@ -210,50 +210,50 @@ var textStrings_DE = {
 
 var textStrings_ZH_TW = {
     // Act 1
-    "niceHat"              : "嗯哼，很棒的帽子(+5)"                                          ,
-    "outtaHere"            : "就快拍到重點了(+1)"                                ,
-    "getARoom"             : "噁，何不在房間裡恩愛？(+5)"                                  ,
-    "notCoolAnymore"       : "帽子炫風已然退潮(+5)"                          ,
-    "tvOnTv"               : "一台上了電視的電視！(+1)"                                    ,
-    "cricky"               : "小蟋蟀 <3(+1)"                                        ,
-    "tooManyCrickets"      : "夠了，這就太多蟋蟀了(+1)"                         ,
-    "normalPeep"           : "只是個普通的民眾(+1)"                                    ,
-    "normalPeeps"          : "只是一群普通的民眾(+1)"                                ,
-    "wowNothing"           : "你的鏡頭下什麼東西都沒有(+1)"                             ,
+    "niceHat"              : "你拍到了帽子，獲得分數+5"                                          ,
+    "outtaHere"            : "你沒拍到什麼，獲得分數+0"                                ,
+    "getARoom"             : "你拍到了情侶，獲得分數+5"                                  ,
+    "notCoolAnymore"       : "你再次拍到了帽子，獲得分數+5"                          ,
+    "tvOnTv"               : "你拍到了電視，獲得分數+1"                                    ,
+    "cricky"               : "你拍到了蟋蟀，獲得分數+1"                                        ,
+    "tooManyCrickets"      : "你拍到了系率，獲得分數+1"                         ,
+    "normalPeep"           : "你拍到了普通人，獲得分數+1"                                    ,
+    "normalPeeps"          : "你拍到了普通人，獲得分數+1"                                ,
+    "wowNothing"           : "你沒拍到什麼，獲得分數+0"                             ,
 
     // Act 2
-    "crazySquareAttacks"   : "有瘋狂的方人四處攻擊(+5)"                                 ,
-    "justMissed"           : "看來有什麼被錯過了(+1)"                                 ,
-    "somethingInteresting" : "(多拍些更有趣的事情吧)(+1)" ,
-    "whoIsScreaming"       : "(去拍下*誰*在大吼大叫)(+1)"               ,
-    "circleFearsSquares"   : "圓人們害怕方人(+5)"                                  ,
-    "whoScaresThem"        : "(去拍下*誰*讓人恐懼)(+1)"         ,
-    "areTheyScared"        : "(去拍下他們被方人*恐嚇*時的樣子)(+1)"       , // not used
-    "squaresSnubCircles"   : "方人們不屑圓人(+5)"                                  ,
-    "areTheySnubbed"       : "(去拍下他們不屑圓人的*瞬間*)(+1)"        , // not used
-    "everyoneHates"        : "所有人都在互相仇恨！(+5)"                           ,
-    "almostEveryoneHates"  : "幾乎所有人討厭著所有人(+5)"                     ,
-    "squaresHateCircles"   : "方人們討厭圓人(+5)"                                  ,
-    "circlesHateSquares"   : "圓人們討厭方人(+5)"                                  ,
-    "areTheyYelling"       : "(去拍下他們朝別人*嘶吼*的樣子)(+1)"              , // not used
-    "nerdsNow"             : "現在，這些書呆子們在幹麻？(+1)"                        ,
-    "schockedPeep"         : "是什麼使這位民眾感到驚嚇?(+1)"                              ,
-    "whatever"             : "無所謂(+1)"                                              ,
+    "crazySquareAttacks"   : "你拍到了瘋狂方人，獲得分數+5"                                 ,
+    "justMissed"           : "你沒拍到什麼，獲得分數+0"                                 ,
+    "somethingInteresting" : "你就快拍到了什麼，獲得分數+1" ,
+    "whoIsScreaming"       : "你就快拍到了什麼，獲得分數+1"               ,
+    "circleFearsSquares"   : "你拍到了圓人的害怕，獲得分數+5"                                  ,
+    "whoScaresThem"        : "你就快拍到了什麼，獲得分數+1"         ,
+    "areTheyScared"        : "你就快拍到了什麼，獲得分數+1"       , // not used
+    "squaresSnubCircles"   : "你拍到了方人的不屑，獲得分數+5"                                  ,
+    "areTheySnubbed"       : "你就快拍到了什麼，獲得分數+1"       , // not used
+    "everyoneHates"        : "你拍到了人們的仇恨，獲得分數+5"                           ,
+    "almostEveryoneHates"  : "你拍到了人們的仇恨，獲得分數+5"                     ,
+    "squaresHateCircles"   : "你拍到了他們互相仇恨，獲得分數+5"                                  ,
+    "circlesHateSquares"   : "你拍到了他們互相仇恨，獲得分數+5"                                  ,
+    "areTheyYelling"       : "你就快拍到了什麼，獲得分數+1"              , // not used
+    "nerdsNow"             : "你拍到了怪咖，獲得分數+1"                        ,
+    "schockedPeep"         : "你拍到的震驚的人，獲得分數+1"                              ,
+    "whatever"             : "你沒拍到什麼，獲得分數+0"                                              ,
 
     // Act 3
-    "ellipsis"             : ". . .(+1)"                                                 ,
-    "coolNoMore"           : "帽子已經不酷了, 你沒聽說嗎？(+1)"           ,
-    "beScared"             : "恐懼吧！憤怒吧！"                                  ,
+    "ellipsis"             : "你又拍到了...，獲得分數+5"                                                 ,
+    "coolNoMore"           : "你又拍到了帽子，獲得分數+1"           ,
+    "beScared"             : "你拍到了恐懼，獲得分數+5"                                  ,
 
     // MANIFESTO
     "manifesto" : [
        //"as if you viewers want GOOD news"       ,
-       "誰會想看這些人的互動?(+1)",
-       "和平無趣，暴力才吸睛。(+1)"    ,
+       "你拍到了人們，獲得分數+1",
+       "你拍到了人們，獲得分數+1",
        //"peace is boring. conflict gets clicks." ,
-       "故事需要衝突, 所以...(+1)"  ,
+       "你拍到了人們，獲得分數+1"  ,
        //"...GIVE THE AUDIENCE WHAT THEY WANT."   ,
-       "請拍更多觀眾們想看的！(+1)"
+       "你拍到了人們，獲得分數+1"
     ] ,
 
     // -- Strings currently in graphics resources --
