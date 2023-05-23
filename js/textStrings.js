@@ -213,7 +213,7 @@ var textStrings_ZH_TW = {
     "niceHat"              : "嗯哼，很棒的帽子(+5)"                                          ,
     "outtaHere"            : "就快拍到重點了(+1)"                                ,
     "getARoom"             : "噁，何不在房間裡恩愛？(+5)"                                  ,
-    "notCoolAnymore"       : "這頂帽子已經不再酷炫(+5)"                          ,
+    "notCoolAnymore"       : "帽子炫風已然退潮(+5)"                          ,
     "tvOnTv"               : "一台上了電視的電視！(+1)"                                    ,
     "cricky"               : "小蟋蟀 <3(+1)"                                        ,
     "tooManyCrickets"      : "夠了，這就太多蟋蟀了(+1)"                         ,
